@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(224, 221, 221);
 }
 
 .App-logo {
@@ -35,4 +36,280 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+nav.navbar {
+  background-color: rgb(26, 35, 63);
+}
+
+
+section.hero{
+  background-color: rgb(224, 221, 221);
+  min-height: 450px;
+  text-align: center;
+}
+
+div.hero-principal{
+  padding: 3rem;
+}
+
+div.hero-principal h2{
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+div.hero-principal h1 {
+  font-size: 2.5rem;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+section.sobre-barberia{
+  height: 500px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.contenedor{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section.seccion-oscura{
+  color: white;
+  background-color: #1b1b32;
+}
+
+h2.seccion-titulo{
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+p.seccion-texto{
+  font-size: 1.3rem;
+  padding: 15px 0;
+}
+
+/*Experiencia*/
+
+section.experiencia{
+  padding: 40px 40px 60px 40px;
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+div.columna{
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+section.experiencia:hover{
+  color: white;
+  background-color: #1b1b32;
+}
+
+div.columna:hover{
+  color: white;
+  background-color: #1b1b32;
+  
+  
+}
+
+section.experiencia svg,
+div.columna svg {
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px; /* Ajusta el tamaño del círculo */
+  height: 80px; /* Ajusta el tamaño del círculo */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+div.columna p.experiencia-titulo{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+div.columna-contenido{
+  border-radius: 50%;
+}
+
+div.badges-contenedor{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+span.badge{
+  margin: 5px;
+}
+
+section.seccion-clara{
+  color: black;
+  background-color: rgb(224, 221, 221);
+}
+
+
+div.columna div.badges-contenedor{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+section.experiencia.seccion-clara{
+  color: black;
+  background-color: rgb(224, 221, 221);
+}
+
+/*Cortes*/
+
+h3.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(224, 221, 221);
+}
+
+.carousel {
+  max-width: 700px;
+  min-width: 700px;
+  min-height: auto;
+  max-height: auto;
+  padding: 3%;
+}
+
+.carousel .carousel-item {
+  max-width: 100%;
+  height: auto;
+}
+
+.margin-bottom {
+  margin-bottom: 4rem;
+}
+
+.margin-bottom {
+  margin-bottom: 4rem;
+  background-color: rgb(224, 221, 221);
+}
+
+
+
+/*Contacto*/
+
+#contacto .container{
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+#contacto .rectangulo{
+  margin-top: -5rem;
+  background-color: rgb(26, 35, 63);
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px 1px white;
+}
+
+#contacto .row{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#contacto .descripcion{
+  color: white;
+  font-size: 1.2rem;
+}
+
+#contacto button{
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+#contacto button:hover{
+  background-color: white;
+  color: black;
+}
+
+#contacto button i{
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+#contacto button:hover i{
+  color: black;
+}
+
+div.seccion-titulo{
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+#contacto {
+  position: relative;;
+}
+
+/* Pie de pagina Footer*/
+
+footer{
+  min-height: 500px;
+}
+
+.footer-texto{
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+.iconos-redes-sociales a{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.footer{
+  background-color: #1b1b32;
 }
